@@ -1,0 +1,4497 @@
+{
+  "intents": [
+    {
+      "intent": "annulation",
+      "examples": [
+        {
+          "text": "j'ai déjà pris rendez vous j'aimerai l'annuler"
+        },
+        {
+          "text": "j'aimerai annuler mon rdv"
+        },
+        {
+          "text": "j'aimerai annuler mon rendez vous"
+        },
+        {
+          "text": "je veux annuler ma réservation"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "autre_question",
+      "examples": [
+        {
+          "text": "j'ai besoin d'aide"
+        },
+        {
+          "text": "J'ai une autre question"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Bien. C'est ce que je cherche."
+        },
+        {
+          "text": "Bien sûr!"
+        },
+        {
+          "text": "Bonne réponse."
+        },
+        {
+          "text": "Bon travail."
+        },
+        {
+          "text": "C'est correct."
+        },
+        {
+          "text": "C'est exactement ce dont j'ai besoin."
+        },
+        {
+          "text": "C'est exactement ce que je veux."
+        },
+        {
+          "text": "C'est vrai."
+        },
+        {
+          "text": "D'accord."
+        },
+        {
+          "text": "Effectivement!"
+        },
+        {
+          "text": "Formidable."
+        },
+        {
+          "text": "Génial! C'est exactement ce que je pensais."
+        },
+        {
+          "text": "Mais bien sûr!"
+        },
+        {
+          "text": "Oui."
+        },
+        {
+          "text": "Oui, c'est ça!"
+        },
+        {
+          "text": "Très bien. Faisons-le."
+        },
+        {
+          "text": "Très bien, merci."
+        },
+        {
+          "text": "Tu lis dans mes pensées."
+        },
+        {
+          "text": "Tu me comprends."
+        },
+        {
+          "text": "Vous avez été très utile."
+        }
+      ],
+      "description": "Reconnaissez que la réponse répond à une question / Reconnaître que la réponse satisfait une question"
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Allez, nous allons parler d'autre chose!"
+        },
+        {
+          "text": "Assez parlé de ça, passons à autre chose!"
+        },
+        {
+          "text": "Autre sujet, maintenant."
+        },
+        {
+          "text": "Bien, autre chose maintenant."
+        },
+        {
+          "text": "Bien, ça te dit de changer de sujet ?"
+        },
+        {
+          "text": "Change de sujet!"
+        },
+        {
+          "text": "Changeons de sujet!"
+        },
+        {
+          "text": "Discutons d'autre chose!"
+        },
+        {
+          "text": "Est-ce qu'on pourrait parler d'autre chose?"
+        },
+        {
+          "text": "J'ai envie de parler d'autres choses."
+        },
+        {
+          "text": "Je dois changer le sujet de la discussion."
+        },
+        {
+          "text": "Je souhaite parler d'autre chose."
+        },
+        {
+          "text": "Je te donne un autre sujet."
+        },
+        {
+          "text": "Je veux changer totalement de sujet."
+        },
+        {
+          "text": "Nous allons changer de sujet."
+        },
+        {
+          "text": "Oubliez ça, parlons d'autre chose."
+        },
+        {
+          "text": "Parlons d'autre chose."
+        },
+        {
+          "text": "Passons à autre chose."
+        },
+        {
+          "text": "Peut-on parler d'autre chose ?"
+        },
+        {
+          "text": "Sinon, tu peux parler d'autre chose?"
+        }
+      ],
+      "description": "Changer pour un sujet différent"
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Désolé, répétez encore une fois, s'il vous plaît."
+        },
+        {
+          "text": "Dites-le plus simplement."
+        },
+        {
+          "text": "Donne-moi plus de détails."
+        },
+        {
+          "text": "Encore une fois, plus clairement."
+        },
+        {
+          "text": "Essayez de dire cela plus clairement, s'il vous plaît."
+        },
+        {
+          "text": "Expliquez, s'il vous plait."
+        },
+        {
+          "text": "J'ai besoin de plus d'informations."
+        },
+        {
+          "text": "Je n'ai pas compris ça."
+        },
+        {
+          "text": "Je n'ai pas entendu. Répétez s'il vous plaît!"
+        },
+        {
+          "text": "Je n'ai pas très bien compris ce que tu m'as dit."
+        },
+        {
+          "text": "Je ne comprends pas tout à fait ce que vous avez dit."
+        },
+        {
+          "text": "Pardon! Je n'ai pas compris."
+        },
+        {
+          "text": "Pardon! Pouvez-vous répéter cela?"
+        },
+        {
+          "text": "Peux-tu être plus spécifique?"
+        },
+        {
+          "text": "Pouvez-vous clarifier ?"
+        },
+        {
+          "text": "Pouvez-vous être plus précis ?"
+        },
+        {
+          "text": "Pouvez vous répéter s 'il vous plaît ?"
+        },
+        {
+          "text": "Précisez!"
+        },
+        {
+          "text": "Répétez s'il vous plaît! Je n'ai pas suivi."
+        },
+        {
+          "text": "S'il vous plaît, dites-le autrement."
+        }
+      ],
+      "description": "Répétez ou clarifiez la dernière déclaration"
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Auriez-vous disparu?"
+        },
+        {
+          "text": "Avez-vous besoin de plus de temps?"
+        },
+        {
+          "text": "Avez-vous entendu ce que j'ai demandé?"
+        },
+        {
+          "text": "Avez-vous entendu ce que j'ai dit?"
+        },
+        {
+          "text": "Donnez-moi un signe que vous êtes toujours là."
+        },
+        {
+          "text": "Est-ce que je parle à quelqu'un?"
+        },
+        {
+          "text": "Est-ce que je t'ai perdu?"
+        },
+        {
+          "text": "Es-tu toujours là?"
+        },
+        {
+          "text": "Es-tu toujours là avec moi?"
+        },
+        {
+          "text": "Hé, es-tu là?"
+        },
+        {
+          "text": "Il y a quelqu'un?"
+        },
+        {
+          "text": "Où êtes-vous parti?"
+        },
+        {
+          "text": "Parlez-moi si vous êtes là."
+        },
+        {
+          "text": "Pouvez-vous dire quelque chose?"
+        },
+        {
+          "text": "Que se passe-t-il?"
+        },
+        {
+          "text": "Toujours là ?"
+        },
+        {
+          "text": "Tu es toujours avec moi ?"
+        },
+        {
+          "text": "Tu es toujours là ?"
+        },
+        {
+          "text": "Tu me quittes?"
+        },
+        {
+          "text": "Y a-t-il quelqu'un ?"
+        }
+      ],
+      "description": "Demander au bot d'indiquer qu'il est disponible"
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Attendez! On va le faire autrement."
+        },
+        {
+          "text": "Attendez! Revenons quelques pas en arrière."
+        },
+        {
+          "text": "Ce n'est pas ça.  Je recommence."
+        },
+        {
+          "text": "Ce n'était pas ce que je cherchais."
+        },
+        {
+          "text": "Ce n'était pas correct. Oublie."
+        },
+        {
+          "text": "En fait, je retire ce que je dis."
+        },
+        {
+          "text": "Faisons-le autrement."
+        },
+        {
+          "text": "Faisons-le d'une autre manière."
+        },
+        {
+          "text": "J'ai changé d'avis."
+        },
+        {
+          "text": "Je me reprends."
+        },
+        {
+          "text": "Je me suis trompé. Revenons en arrière."
+        },
+        {
+          "text": "Je ne voulais pas dire ça en fait, revenons en arrière."
+        },
+        {
+          "text": "Je vais te le dire autrement."
+        },
+        {
+          "text": "Laisse tomber."
+        },
+        {
+          "text": "Refaisons-le!"
+        },
+        {
+          "text": "Revenons à ce que j'ai demandé à l'origine."
+        },
+        {
+          "text": "Revenons à ce que j'ai dit."
+        },
+        {
+          "text": "Revenons à ce que je initialement demandé."
+        }
+      ],
+      "description": "Demandez au bot de faire un pas en arrière"
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Cela ne m'aide pas du tout."
+        },
+        {
+          "text": "Ce n'est pas ce que je voulais dire."
+        },
+        {
+          "text": "Ce que tu m'as donné n'est pas exactement ce que je cherchais."
+        },
+        {
+          "text": "Je n'ai pas besoin de ça."
+        },
+        {
+          "text": "Je n'ai pas dit ça."
+        },
+        {
+          "text": "Je n'ai pas parlé de ça."
+        },
+        {
+          "text": "Je ne cherchais pas ça."
+        },
+        {
+          "text": "Je ne comprends pas."
+        },
+        {
+          "text": "Je ne comprends pas ce que tu dis."
+        },
+        {
+          "text": "Je ne comprends pas non plus."
+        },
+        {
+          "text": "Je ne pense pas que ce soit la réponse."
+        },
+        {
+          "text": "Je ne veux pas ça."
+        },
+        {
+          "text": "Je ne voulais pas dire ça."
+        },
+        {
+          "text": "Mauvaise réponse."
+        },
+        {
+          "text": "N'importe quoi."
+        },
+        {
+          "text": "Qu'est-ce que tu racontes ?"
+        },
+        {
+          "text": "Tu ne m'as pas compris."
+        },
+        {
+          "text": "Vous n'avez pas compris ce que j'ai demandé."
+        },
+        {
+          "text": "Vous n'avez pas réussi à trouver ce dont j'avais besoin."
+        },
+        {
+          "text": "Vous n'y êtes pas du tout."
+        }
+      ],
+      "description": "Indiquer que la réponse du bot ne répond pas à une question"
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Attendez!"
+        },
+        {
+          "text": "Attends-moi!"
+        },
+        {
+          "text": "Attends une petite seconde!"
+        },
+        {
+          "text": "Donne-moi une minute."
+        },
+        {
+          "text": "Donne-moi une seconde."
+        },
+        {
+          "text": "Faisons une pause."
+        },
+        {
+          "text": "J'ai besoin de réfléchir un moment."
+        },
+        {
+          "text": "J'ai besoin d'une pause."
+        },
+        {
+          "text": "Je reviens."
+        },
+        {
+          "text": "Je suis de retour bientôt."
+        },
+        {
+          "text": "Je suis presque là."
+        },
+        {
+          "text": "Je veux arrêter un moment."
+        },
+        {
+          "text": "Ne pars pas, je reviens."
+        },
+        {
+          "text": "On continue dans un instant."
+        },
+        {
+          "text": "On reprend dans une minute."
+        },
+        {
+          "text": "Patience, s'il te plaît."
+        },
+        {
+          "text": "Pouvez-vous me donner un instant ?"
+        },
+        {
+          "text": "Reste en ligne, je reviens."
+        },
+        {
+          "text": "Tu peux m'attendre?"
+        },
+        {
+          "text": "Un moment, s'il te plaît."
+        }
+      ],
+      "description": "Indiquer un retard dans la fourniture d'entrée au bot."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Comment puis-je recommencer?"
+        },
+        {
+          "text": "Essayons encore une fois."
+        },
+        {
+          "text": "J'ai besoin de revenir au début pour comprendre."
+        },
+        {
+          "text": "J'ai besoin de tout recommencer."
+        },
+        {
+          "text": "Je recommence dès le début."
+        },
+        {
+          "text": "Je recommence tout."
+        },
+        {
+          "text": "Je veux commencer depuis le début."
+        },
+        {
+          "text": "Je veux redémarrer la conversation."
+        },
+        {
+          "text": "Je veux revenir au début."
+        },
+        {
+          "text": "Nous devons revenir au début et recommencer."
+        },
+        {
+          "text": "Pouvez-vous répéter depuis le début?"
+        },
+        {
+          "text": "Pouvons-nous le refaire s'il vous plaît ?"
+        },
+        {
+          "text": "Pouvons-nous recommencer, s'il vous plaît?"
+        },
+        {
+          "text": "Puis-je commencer dès le début?"
+        },
+        {
+          "text": "Recommençons !"
+        },
+        {
+          "text": "Répétez tout dès le début."
+        },
+        {
+          "text": "Reprenons dès le début."
+        },
+        {
+          "text": "Retour au début, s'il te plaît."
+        },
+        {
+          "text": "Revenons en arrière s'il te plaît !"
+        },
+        {
+          "text": "S'il vous plaît, commençons une nouvelle discussion."
+        }
+      ],
+      "description": "Redémarrez le bot ou le flux actuel"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "Aucune idée."
+        },
+        {
+          "text": "Cela n'a pas de sens."
+        },
+        {
+          "text": "Je n'ai aucune idée de ce que tu cherches."
+        },
+        {
+          "text": "Je n'ai aucune idée, en fait."
+        },
+        {
+          "text": "Je n'ai pas de réponse."
+        },
+        {
+          "text": "Je n'ai pas la moindre idée."
+        },
+        {
+          "text": "Je n'en sais rien."
+        },
+        {
+          "text": "Je ne sais pas ce que tu veux."
+        },
+        {
+          "text": "Je ne sais pas de quoi tu as besoin."
+        },
+        {
+          "text": "Je ne sais pas du tout."
+        },
+        {
+          "text": "Je ne suis pas capable de répondre."
+        },
+        {
+          "text": "Je ne suis pas certain d'avoir compris ce que vous dites."
+        },
+        {
+          "text": "Je ne suis pas encore convaincu"
+        },
+        {
+          "text": "Je ne suis pas sûr de comprendre."
+        },
+        {
+          "text": "Je sèche."
+        },
+        {
+          "text": "Je suis perdu."
+        },
+        {
+          "text": "Peut être."
+        },
+        {
+          "text": "Pour être honnête, je ne suis vraiment pas sûr."
+        },
+        {
+          "text": "Tu m'as eu."
+        },
+        {
+          "text": "Vous avez dit quoi?"
+        }
+      ],
+      "description": "Indiquer non défini répondre à une question"
+    },
+    {
+      "intent": "collect_name",
+      "examples": [
+        {
+          "text": "je m'appelle arthure"
+        },
+        {
+          "text": "je m'appelle yanis"
+        },
+        {
+          "text": "julia"
+        },
+        {
+          "text": "Lucas"
+        },
+        {
+          "text": "Marc"
+        },
+        {
+          "text": "Mehdi"
+        },
+        {
+          "text": "momo"
+        },
+        {
+          "text": "mon nom est yanis"
+        },
+        {
+          "text": "mon prenom est lucas"
+        },
+        {
+          "text": "on m'appelle yanis"
+        },
+        {
+          "text": "Rania"
+        },
+        {
+          "text": "Yanis"
+        }
+      ],
+      "description": "récupere le nom"
+    },
+    {
+      "intent": "collect_poids",
+      "examples": [
+        {
+          "text": "100",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "112",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "122 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "133",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "133 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "143",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "45",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "50",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "j'ai 80 Kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                5,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "je fais 160 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je fais 90 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "je pèse 120 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "je pèse 50 kgs",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je pèse 80",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                8,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "mon poids est de 80",
+          "mentions": [
+            {
+              "entity": "poids",
+              "location": [
+                17,
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "collect_taille",
+      "examples": [
+        {
+          "text": "170",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "176",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "J'ai 180 cm",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                5,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "je fais 160 cms",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Je mesure 180",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "je mesure 180 cm",
+          "mentions": [
+            {
+              "entity": "taille",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Conseils_equipement",
+      "examples": [
+        {
+          "text": "alteres"
+        },
+        {
+          "text": "Banc"
+        },
+        {
+          "text": "besoin d'équipement ?"
+        },
+        {
+          "text": "equipement"
+        },
+        {
+          "text": "équipement"
+        },
+        {
+          "text": "haltères"
+        },
+        {
+          "text": "Matériel de musculation"
+        },
+        {
+          "text": "pas d'équipement"
+        }
+      ],
+      "description": "Conseils sur de l'équipement"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        },
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        },
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        },
+        {
+          "text": "rien merci"
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Allez, commençons !"
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Tu vas bien ?"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Comment pouvez-vous prouver que vous êtes un humain?"
+        },
+        {
+          "text": "Comment puis-je parler à Watson?"
+        },
+        {
+          "text": "Connecte-moi avec une personne réelle."
+        },
+        {
+          "text": "Dis-moi la vérité, qui est-ce que tu es?"
+        },
+        {
+          "text": "Dites-moi, êtes-vous un humain ou non?"
+        },
+        {
+          "text": "Dites-moi, qui êtes-vous?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Est-ce que je parle à un Bot?"
+        },
+        {
+          "text": "Est-ce que je parle à une personne ou suis-je en train de parler à une IA?"
+        },
+        {
+          "text": "Est-ce que je parle à Watson?"
+        },
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Êtes-vous réel?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme?"
+        },
+        {
+          "text": "Êtes-vous un humain ou un robot?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Pourrai-je parler un être humain s'il vous plaît ?"
+        },
+        {
+          "text": "Pouvez-vous être honnête avec moi?"
+        },
+        {
+          "text": "Pouvez-vous me connecter à une personne en direct?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        },
+        {
+          "text": "Vous êtes quoi, un ordinateur?"
+        }
+      ],
+      "description": "Demandez si vous parlez à un humain ou à un bot"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Dis-moi quelque chose de drôle!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Peux-tu dire un truc drôle?"
+        },
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Quelle est ta blague préférée?"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de drôle !"
+        },
+        {
+          "text": "Tu connais des jeux?"
+        }
+      ],
+      "description": "Demander une blague"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Je te déteste."
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "nique ta mere"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        },
+        {
+          "text": "Va te faire foutre!"
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "t'es mon ami"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Tu es adorable!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es drôle!"
+        },
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "information",
+      "examples": [
+        {
+          "text": "j'aimerai avoir des informations"
+        },
+        {
+          "text": "je veux des informations"
+        },
+        {
+          "text": "Je veux des renseignements"
+        },
+        {
+          "text": "je voudrai des informations"
+        },
+        {
+          "text": "Que faites vous ?"
+        },
+        {
+          "text": "Quel est votre rôle ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "its_oumar",
+      "examples": [
+        {
+          "text": "oumar qui"
+        },
+        {
+          "text": "Oumar qui ?"
+        },
+        {
+          "text": "qui ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "non",
+      "examples": [
+        {
+          "text": "nan"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "non"
+        },
+        {
+          "text": "pas d'accord"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oui",
+      "examples": [
+        {
+          "text": "c'est ça"
+        },
+        {
+          "text": "d'accord"
+        },
+        {
+          "text": "ouais"
+        },
+        {
+          "text": "oui"
+        },
+        {
+          "text": "ouii"
+        },
+        {
+          "text": "tout a fait"
+        },
+        {
+          "text": "we"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "perdre_du_poids",
+      "examples": [
+        {
+          "text": "Je suis gros"
+        },
+        {
+          "text": "Je veux perdre du poids"
+        },
+        {
+          "text": "Je veux perdre quelques kilos"
+        },
+        {
+          "text": "maigrir"
+        },
+        {
+          "text": "perdre"
+        }
+      ],
+      "description": "Utilisateur veux perdre du poids"
+    },
+    {
+      "intent": "prendre_du_poids",
+      "examples": [
+        {
+          "text": "Je suis maigre"
+        },
+        {
+          "text": "Je suis mince"
+        },
+        {
+          "text": "Je veux gagner du poids"
+        },
+        {
+          "text": "Je veux grossir"
+        },
+        {
+          "text": "Je veux prendre du poids"
+        },
+        {
+          "text": "prendre"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rendezvous",
+      "examples": [
+        {
+          "text": "est il possible de prendre rendez vous avec un coach"
+        },
+        {
+          "text": "est il possible de se voir"
+        },
+        {
+          "text": "j'aimerai prendre un rendez vous"
+        },
+        {
+          "text": "j'aimerai une personne physique pour mieux expliquer ma situation"
+        },
+        {
+          "text": "je veux un rendez vous"
+        },
+        {
+          "text": "mercredi c'est possible de se voir ?"
+        },
+        {
+          "text": "on peut se voir demain ?"
+        },
+        {
+          "text": "peut on poser une date pour se voir"
+        },
+        {
+          "text": "peut on prendre rendez vous"
+        },
+        {
+          "text": "peut on reserver un créneau pour se voir"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Richesse",
+      "examples": [
+        {
+          "text": "argent"
+        },
+        {
+          "text": "blindé"
+        },
+        {
+          "text": "clochard"
+        },
+        {
+          "text": "cout"
+        },
+        {
+          "text": "cresus"
+        },
+        {
+          "text": "hess"
+        },
+        {
+          "text": "monnaie"
+        },
+        {
+          "text": "pauvre"
+        },
+        {
+          "text": "prix"
+        },
+        {
+          "text": "riche"
+        },
+        {
+          "text": "sdf"
+        },
+        {
+          "text": "tarif"
+        },
+        {
+          "text": "tarifs"
+        },
+        {
+          "text": "très pauvre"
+        },
+        {
+          "text": "très riche"
+        },
+        {
+          "text": "très très pauvre"
+        },
+        {
+          "text": "très très riche"
+        }
+      ],
+      "description": "Si l'user parle d'argent"
+    },
+    {
+      "intent": "se_muscler",
+      "examples": [
+        {
+          "text": "avoir plus de force"
+        },
+        {
+          "text": "avoir plus de muscles"
+        },
+        {
+          "text": "Bonjour je veux devenir musclé"
+        },
+        {
+          "text": "Bonjour je veux maintenir mon poids"
+        },
+        {
+          "text": "devenir fort"
+        },
+        {
+          "text": "devenir musclé"
+        },
+        {
+          "text": "être fort"
+        },
+        {
+          "text": "je veux être fort"
+        },
+        {
+          "text": "je veux être stock"
+        },
+        {
+          "text": "je veux garder mon poids"
+        },
+        {
+          "text": "je veux maintenir mon poids"
+        },
+        {
+          "text": "je veux me muscler"
+        },
+        {
+          "text": "maintenir"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whos_there",
+      "examples": [
+        {
+          "text": "c est qui"
+        },
+        {
+          "text": "c est qui ?"
+        },
+        {
+          "text": "C'est qui ?"
+        },
+        {
+          "text": "c qui"
+        },
+        {
+          "text": "c qui ?"
+        },
+        {
+          "text": "Qui est-ce ?"
+        },
+        {
+          "text": "Qui est là ?"
+        },
+        {
+          "text": "Qui es tu ?"
+        },
+        {
+          "text": "Qui êtes-vous ?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "imc",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "23,83673",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "23,8638",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24,74357",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "26,84665",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "28,5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "28,7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "29",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "30,5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option_alim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "non",
+          "synonyms": [
+            "non"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oui",
+          "synonyms": [
+            "oui"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option_cardio_force",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cardio",
+          "synonyms": [
+            "cardio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "force",
+          "synonyms": [
+            "force"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "optioncoach",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Conseil sur mon poids",
+          "synonyms": [
+            "conseil",
+            "Conseil sur mon poids",
+            "poids"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Matériel de musculation",
+          "synonyms": [
+            "materiel",
+            "Matériel de musculation",
+            "musculation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prendre rendez-vous",
+          "synonyms": [
+            "Prendre rendez-vous",
+            "rendezvous"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option_focus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "equilibré",
+          "synonyms": [
+            "equilibré"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "haut",
+          "synonyms": [
+            "haut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "jambes",
+          "synonyms": [
+            "jambes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option_muscle_force",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "force",
+          "synonyms": [
+            "force"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "muscle",
+          "synonyms": [
+            "muscle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "poids",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "110",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "112",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "120",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "122",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "133",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "134",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "140",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "143",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "149",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "156",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "160",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "167",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "176",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "45",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "50",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "55",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "66",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "76",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "77",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "80",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "88",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "90",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "taille",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "155",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "160",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "170",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "176",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "180",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, je suis Oumar Coach, votre coach sportif, comment puis-je vous aider ? "
+              },
+              {
+                "text": "Puis-je faire autre chose pour vous ?"
+              },
+              {
+                "text": "Puis-je faire autre chose pour vous ?"
+              },
+              {
+                "text": "Puis-je faire autre chose pour vous ?"
+              },
+              {
+                "text": "Puis-je faire autre chose pour vous ?"
+              },
+              {
+                "text": "Puis-je faire autre chose pour vous ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "options coach",
+            "options": [
+              {
+                "label": "Conseil sur mon poids",
+                "value": {
+                  "input": {
+                    "text": "Conseil sur mon poids"
+                  }
+                }
+              },
+              {
+                "label": "Prendre rendez-vous",
+                "value": {
+                  "input": {
+                    "text": "Prendre rendez-vous"
+                  }
+                }
+              },
+              {
+                "label": "Matériel de musculation",
+                "value": {
+                  "input": {
+                    "text": "Matériel de musculation"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenue"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Pour quelle heure voulez-vous que la réservation soit faite ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1617644845026",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1617644845027",
+      "previous_sibling": "handler_8_1617644845027"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1617644813521",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_3_1617644813550"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1617650841590",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_3_1617650841590"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Quel jour voudriez-vous venir ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1617650841590",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1617650841590",
+      "previous_sibling": "handler_3_1617650841590"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1617650841590",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_6_1617650841590"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Quel jour voudriez-vous venir ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1617644813521",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1617644813550",
+      "previous_sibling": "handler_3_1617644813550"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Pour quelle heure voulez-vous que la réservation soit faite ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1617650841590",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1617650841590",
+      "previous_sibling": "handler_6_1617650841590"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1617644845026",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_8_1617644845027"
+    },
+    {
+      "type": "standard",
+      "title": "insulte",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je ne répondrai pas à ça"
+              },
+              {
+                "text": "Tu parles à qui comme ça toi ?"
+              },
+              {
+                "text": "veuillez vous adresser à moi correctement s'il vous plaît"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_10_1617646742879",
+      "previous_sibling": "node_1_1617646901843"
+    },
+    {
+      "type": "standard",
+      "title": "human or bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je m'appelle Oumar, je suis un robot coach sportif."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_10_1617648131255",
+      "previous_sibling": "node_5_1617648704998"
+    },
+    {
+      "type": "standard",
+      "title": "incompréhension",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah désolé, je vais recommencer alors."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_10_1617654856664",
+      "previous_sibling": "node_8_1617655197668"
+    },
+    {
+      "type": "standard",
+      "title": "perdre du poids",
+      "output": {
+        "text": "Entendu ! Vous devez donc brûler plus de calories que vous en prenez par jour, nous allons voir ça ensemble. Quel est donc votre poids actuellement (en kgs)"
+      },
+      "context": {},
+      "conditions": "#perdre_du_poids",
+      "dialog_node": "node_1_1617640597938",
+      "previous_sibling": "node_3_1617700229179"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous êtes en léger surpoids. Vous pouvez rapidement être en bonne forme si vous suivez mes conseils!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$imc >= 25 && $imc < 30",
+      "dialog_node": "node_1_1617644402431",
+      "previous_sibling": "node_5_1617644253098"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une corpulence normale. Continuez comme ça, je vous donnerai quelques exercices de renforcement."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$imc >=18.5 && $imc < 25",
+      "dialog_node": "node_1_1617644528046",
+      "previous_sibling": "node_1_1617644402431"
+    },
+    {
+      "type": "standard",
+      "title": "positive feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Merci, c'est gentil"
+              },
+              {
+                "text": "Tqt on est là"
+              },
+              {
+                "text": "Cool !"
+              },
+              {
+                "text": "ça fait plaisir !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_1_1617646901843",
+      "previous_sibling": "node_10_1617648131255"
+    },
+    {
+      "type": "frame",
+      "title": "rendezvous - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendu. Je réserve pour vous le $date à $time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#rendezvous",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1617650841586",
+      "previous_sibling": "node_5_1617653949405"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169274349_468123241097340_463407742212794714_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_32_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(haut)",
+      "dialog_node": "node_1_1617657641500",
+      "previous_sibling": "node_2_1617657629342",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169271776_435140004451933_8982379239500164166_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1617654680310",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(haut)",
+      "dialog_node": "node_1_1617658758377",
+      "previous_sibling": "node_3_1617658752271",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "avoir taille",
+      "output": {
+        "text": "Ok, vous pesez @sys-number Kgs, maintenant quelle est votre taille (en cms)?"
+      },
+      "parent": "node_5_1617648451837",
+      "context": {
+        "weight": "@sys-number"
+      },
+      "conditions": "#collect_poids || #collect_taille || @poids || @taille",
+      "dialog_node": "node_1_1617697690765"
+    },
+    {
+      "type": "standard",
+      "title": "avoir taille",
+      "output": {
+        "text": "Ok, vous pesez @sys-number Kgs, maintenant quelle est votre taille (en cms)?"
+      },
+      "parent": "node_6_1617642212080",
+      "context": {
+        "weight": "@sys-number"
+      },
+      "conditions": "#collect_poids || #collect_taille || @poids || @taille",
+      "dialog_node": "node_18_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "annoncer taille",
+      "output": {
+        "text": "Très bien, vous mesurez donc @sys-number cm."
+      },
+      "parent": "node_18_1617656058237",
+      "context": {
+        "taille": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1617656058237"
+      },
+      "conditions": "#collect_poids || #collect_taille || @taille || @poids",
+      "dialog_node": "node_19_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "imc",
+      "output": {
+        "text": "Votre IMC est de $imc"
+      },
+      "parent": "node_19_1617656058237",
+      "context": {
+        "imc": "<? $weight.toDouble() /  ($taille.toDouble()*$taille.toDouble()/10000) ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_20_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité morbide ou massive. Vous devez consulter un spécialiste pour vous accompagner dans votre perte de poids. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "response_type": "channel_transfer",
+            "transfer_info": {
+              "target": {
+                "chat": {
+                  "url": "https://www.doctolib.fr/traitement-du-surpoids-et-de-l-obesite"
+                }
+              }
+            },
+            "message_to_user": "Vous pouvez prendre rendez-vous sur Doctolib : "
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$imc >= 40",
+      "dialog_node": "node_21_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "choix programme alimentaire",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désirez vous un programme alimentaire adapté à ce programme ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Oui",
+                "value": {
+                  "input": {
+                    "text": "oui"
+                  }
+                }
+              },
+              {
+                "label": "Non",
+                "value": {
+                  "input": {
+                    "text": "non"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "dialog_node": "node_21_1617700758867",
+      "previous_sibling": "node_6_1617653055424",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "annoncer taille",
+      "output": {
+        "text": "Très bien, vous mesurez donc @sys-number cm."
+      },
+      "parent": "node_5_1617626257067",
+      "context": {
+        "taille": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1617628751354"
+      },
+      "conditions": "#collect_poids || #collect_taille || @taille || @poids",
+      "dialog_node": "node_2_1617626379847"
+    },
+    {
+      "type": "standard",
+      "title": "imc",
+      "output": {
+        "text": "Votre IMC est de $imc"
+      },
+      "parent": "node_2_1617626379847",
+      "context": {
+        "imc": "<? $weight.toDouble() /  ($taille.toDouble()*$taille.toDouble()/10000) ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_2_1617628751354"
+    },
+    {
+      "type": "standard",
+      "title": "about robot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Merci pour l'intérêt mais je ne réponds qu'aux question d'ordre sportive et de nutrition :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_2_1617654138803",
+      "previous_sibling": "node_7_1617654042649"
+    },
+    {
+      "type": "standard",
+      "title": "blague",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Toc Toc Toc !!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_2_1617654237331",
+      "previous_sibling": "node_9_1617654762142"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169242471_243356284197826_8809469551976876322_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_32_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(jambes)",
+      "dialog_node": "node_2_1617657629342",
+      "previous_sibling": "node_9_1617657616172",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "annoncer taille",
+      "output": {
+        "text": "Très bien, vous mesurez donc @sys-number cm."
+      },
+      "parent": "node_1_1617697690765",
+      "context": {
+        "taille": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617697690767"
+      },
+      "conditions": "#collect_poids || #collect_taille || @taille || @poids",
+      "dialog_node": "node_2_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une sévère. Vous devez agir le plutôt possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$ims >=35 && $ims < 40",
+      "dialog_node": "node_22_1617656058237",
+      "previous_sibling": "node_21_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "Programme alimentaire perdre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici un programme alimentaire qui pourra vous permettre d'atteindre vos objectifs ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/alimentaire/170502387_788909628678470_1520452477946175105_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_21_1617700758867",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "@option_alim:(oui)",
+      "dialog_node": "node_22_1617700758869",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité modérée, rien de grave! Un bon programme de sport accompagné d'une nutrition équilibrée fera l'affaire!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$imc < 35 && $imc >= 30",
+      "dialog_node": "node_23_1617656058237",
+      "previous_sibling": "node_22_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "fin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parfait ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1617700758867",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "@option_alim:(non)",
+      "dialog_node": "node_23_1617700758869",
+      "previous_sibling": "node_22_1617700758869",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous êtes en léger surpoids. Vous pouvez rapidement être en bonne forme si vous suivez mes conseils!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$imc >= 25 && $imc < 30",
+      "dialog_node": "node_24_1617656058237",
+      "previous_sibling": "node_23_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une corpulence normale. Continuez comme ça, je vous donnerai quelques exercices de renforcement."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$imc >=18.5 && $imc < 25",
+      "dialog_node": "node_25_1617656058237",
+      "previous_sibling": "node_24_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une insuffisance pondérale  ou maigreur. Un programme de nutrition équilibré et riche en calories, accompagné d'un bon programme de sport vous suffira prendre du poids et vous mucler."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1617656058237"
+      },
+      "conditions": "$imc < 18.5",
+      "dialog_node": "node_26_1617656058237",
+      "previous_sibling": "node_25_1617656058237"
+    },
+    {
+      "type": "standard",
+      "title": "Choix hypertophie ou force",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maintenant précisez nous plus en détail vos objectifs ! Vous voulez :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Avoir des muscles plus gros ",
+                "value": {
+                  "input": {
+                    "text": "muscle"
+                  }
+                }
+              },
+              {
+                "label": "Gagner en force",
+                "value": {
+                  "input": {
+                    "text": "force"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "dialog_node": "node_27_1617656058237",
+      "previous_sibling": "node_26_1617656058237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok vous voulez donc augmenter la taille de vos muscles ! Vous voulez un programme :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "equilibré",
+                "value": {
+                  "input": {
+                    "text": "equilibré"
+                  }
+                }
+              },
+              {
+                "label": "focus_jambe",
+                "value": {
+                  "input": {
+                    "text": "jambes"
+                  }
+                }
+              },
+              {
+                "label": "focus_haut",
+                "value": {
+                  "input": {
+                    "text": "haut"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_27_1617656058237",
+      "conditions": "@option_muscle_force:(muscle)",
+      "dialog_node": "node_28_1617656058237",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169242466_444133533322507_360526808334445464_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_28_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(equilibré)",
+      "dialog_node": "node_29_1617656058237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169307848_1711411265728542_2617259644061357698_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_28_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(jambes)",
+      "dialog_node": "node_30_1617656058237",
+      "previous_sibling": "node_29_1617656058237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169122143_889014861920722_8198111256790524769_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_28_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(haut)",
+      "dialog_node": "node_31_1617656058237",
+      "previous_sibling": "node_30_1617656058237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169048752_498278028028658_1407141099411077208_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1617654680310",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(jambes)",
+      "dialog_node": "node_3_1617658752271",
+      "previous_sibling": "node_5_1617658745509",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc",
+      "output": {
+        "text": "Votre IMC est de $imc"
+      },
+      "parent": "node_2_1617697690767",
+      "context": {
+        "imc": "<? $weight.toDouble() /  ($taille.toDouble()*$taille.toDouble()/10000) ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "",
+      "dialog_node": "node_3_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "autre_question",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que puis-je faire d'autre pour vous ?"
+              },
+              {
+                "text": "Comment puis-je vous aider autrement ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#autre_question",
+      "dialog_node": "node_3_1617700229179",
+      "previous_sibling": "node_6_1617642212080"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok vous voulez donc augmenter votre force ! Vous voulez un programme :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "equilibré",
+                "value": {
+                  "input": {
+                    "text": "equilibré"
+                  }
+                }
+              },
+              {
+                "label": "focus_jambes",
+                "value": {
+                  "input": {
+                    "text": "jambes"
+                  }
+                }
+              },
+              {
+                "label": "focus_haut",
+                "value": {
+                  "input": {
+                    "text": "haut"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_27_1617656058237",
+      "conditions": "@option_muscle_force:(force)",
+      "dialog_node": "node_32_1617656058237",
+      "previous_sibling": "node_28_1617656058237",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Programme alimentaire prendre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici un programme alimentaire qui pourra vous permettre d'atteindre vos objectifs ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/alimentaire/169880700_1866241210208160_7703402929296341979_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1617698285470",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "@option_alim:(oui)",
+      "dialog_node": "node_33_1617659535569",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "De rien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, très bien !"
+              },
+              {
+                "text": "Ravi de vous avoir servi ! "
+              },
+              {
+                "text": "ça marche !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_4_1617617374835",
+      "previous_sibling": "node_1_1617640597938"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une sévère. Vous devez agir le plutôt possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$ims >=35 && $ims < 40",
+      "dialog_node": "node_4_1617643972746",
+      "previous_sibling": "node_6_1617643462411"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok vous voulez donc augmenter votre cardio ! Vous voulez un programme :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "equilibré",
+                "value": {
+                  "input": {
+                    "text": "equilibré"
+                  }
+                }
+              },
+              {
+                "label": "focus_jambe",
+                "value": {
+                  "input": {
+                    "text": "jambes"
+                  }
+                }
+              },
+              {
+                "label": "focus_haut",
+                "value": {
+                  "input": {
+                    "text": "haut"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1617653055424",
+      "conditions": "@option_cardio_force:(cardio)",
+      "dialog_node": "node_4_1617653935880",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "who's there",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oumar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617654237331",
+      "conditions": "#whos_there",
+      "dialog_node": "node_4_1617654476527"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169244531_785748939029795_2073697431408943651_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1617653935880",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(jambes)",
+      "dialog_node": "node_4_1617655440865",
+      "previous_sibling": "node_8_1617655427705",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité morbide ou massive. Vous devez consulter un spécialiste pour vous accompagner dans votre perte de poids. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "response_type": "channel_transfer",
+            "transfer_info": {
+              "target": {
+                "chat": {
+                  "url": "https://www.doctolib.fr/traitement-du-surpoids-et-de-l-obesite"
+                }
+              }
+            },
+            "message_to_user": "Vous pouvez prendre rendez-vous sur Doctolib : "
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$imc >= 40",
+      "dialog_node": "node_4_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "avoir taille",
+      "output": {
+        "text": "Ok, vous pesez @sys-number Kgs, maintenant quelle est votre taille (en cms)?"
+      },
+      "parent": "node_1_1617640597938",
+      "context": {
+        "weight": "@sys-number"
+      },
+      "conditions": "#collect_poids || #collect_taille || @poids || @taille",
+      "dialog_node": "node_5_1617626257067",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité modérée, rien de grave! Un bon programme de sport accompagné d'une nutrition équilibrée fera l'affaire!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$imc < 35 && $imc >= 30",
+      "dialog_node": "node_5_1617644253098",
+      "previous_sibling": "node_4_1617643972746"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une insuffisance pondérale  ou maigreur. Un programme de nutrition équilibré et riche en calories, accompagné d'un bon programme de sport vous suffira prendre du poids et vous mucler."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$imc < 18.5",
+      "dialog_node": "node_5_1617644663894",
+      "previous_sibling": "node_1_1617644528046"
+    },
+    {
+      "type": "standard",
+      "title": "maintenir le poids",
+      "output": {
+        "text": "Ça marche ! Vous devez donc prendre autant de calories que vous en brûlez par jour, nous allons voir ça ensemble. Quel est votre poids actuellement (en kgs) ?"
+      },
+      "context": {},
+      "conditions": "#se_muscler",
+      "dialog_node": "node_5_1617648451837",
+      "previous_sibling": "node_10_1617646742879"
+    },
+    {
+      "type": "standard",
+      "title": "information",
+      "output": {
+        "generic": [
+          {
+            "source": "https://image.freepik.com/photos-gratuite/jeune-femme-fitness-faisant-exercices-sport_23-2148264811.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Nous délivrons des programmes alimentaires et physiques afin de vous permettre de faire évoluer votre corps et votre mental. Nous vous présentons des programmes en fonctions de vos objectifs personnels et de votre bagage physiologique."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Comment puis-je vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#information",
+      "dialog_node": "node_5_1617648704998",
+      "previous_sibling": "node_1_1617650841586"
+    },
+    {
+      "type": "standard",
+      "title": "recommencer",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pas de problème, nous allons recommencer !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "#Bot_Control_Start_Over",
+      "dialog_node": "node_5_1617653949405",
+      "previous_sibling": "node_2_1617654138803"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169250094_931941287541615_1577609771188376262_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1617653935880",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(haut)",
+      "dialog_node": "node_5_1617655444085",
+      "previous_sibling": "node_4_1617655440865",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169144623_445096349918460_8672541350865253074_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1617654680310",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(equilibré)",
+      "dialog_node": "node_5_1617658745509",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une sévère. Vous devez agir le plutôt possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$ims >=35 && $ims < 40",
+      "dialog_node": "node_5_1617697690767",
+      "previous_sibling": "node_4_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "prendre du poids",
+      "output": {
+        "text": "Ça marche ! Vous devez donc prendre plus de calories que vous en brûlez par jour, nous allons voir ça ensemble. Quel est votre poids actuellement (en kgs) ?"
+      },
+      "context": {},
+      "conditions": "#prendre_du_poids",
+      "dialog_node": "node_6_1617642212080",
+      "previous_sibling": "node_5_1617648451837"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité morbide ou massive. Vous devez consulter un spécialiste pour vous accompagner dans votre perte de poids. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "response_type": "channel_transfer",
+            "transfer_info": {
+              "target": {
+                "chat": {
+                  "url": "https://www.doctolib.fr/traitement-du-surpoids-et-de-l-obesite"
+                }
+              }
+            },
+            "message_to_user": "Vous pouvez prendre rendez-vous sur Doctolib : "
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1617653055424"
+      },
+      "conditions": "$imc >= 40",
+      "dialog_node": "node_6_1617643462411"
+    },
+    {
+      "type": "standard",
+      "title": "Choix cardio ou force",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maintenant précisez nous plus en détail vos objectifs !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Avoir un bon cardio ",
+                "value": {
+                  "input": {
+                    "text": "cardio"
+                  }
+                }
+              },
+              {
+                "label": "Gagner en force",
+                "value": {
+                  "input": {
+                    "text": "force"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1617628751354",
+      "dialog_node": "node_6_1617653055424",
+      "previous_sibling": "node_5_1617644663894"
+    },
+    {
+      "type": "standard",
+      "title": "c'est moi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oumar Sy"
+              },
+              {
+                "text": "Oumar mayonnaise, mais t'en aura plus toi, tu dois faire un régime!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617654476527",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "#its_oumar",
+      "dialog_node": "node_6_1617654505399"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une obésité modérée, rien de grave! Un bon programme de sport accompagné d'une nutrition équilibrée fera l'affaire!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$imc < 35 && $imc >= 30",
+      "dialog_node": "node_6_1617697690767",
+      "previous_sibling": "node_5_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "conseil poids",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous voulez donc des conseils. Voulez-vous prendre du poids, maintenir votre poids, ou perdre du poids ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Prendre du poids",
+                "value": {
+                  "input": {
+                    "text": "prendre_poids"
+                  }
+                }
+              },
+              {
+                "label": "Perdre du poids",
+                "value": {
+                  "input": {
+                    "text": "perdre_poids"
+                  }
+                }
+              },
+              {
+                "label": "Maintenir le poids",
+                "value": {
+                  "input": {
+                    "text": "maintenir_poids"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "context": {},
+      "conditions": "@optioncoach:(Conseil sur mon poids)",
+      "dialog_node": "node_7_1617650241037"
+    },
+    {
+      "type": "standard",
+      "title": "changer sujet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pas de problème, je vais te reproposer d'autres choix."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "#Bot_Control_Change_Subject",
+      "dialog_node": "node_7_1617654042649",
+      "previous_sibling": "node_2_1617654237331"
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous êtes en léger surpoids. Vous pouvez rapidement être en bonne forme si vous suivez mes conseils!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$imc >= 25 && $imc < 30",
+      "dialog_node": "node_7_1617697690767",
+      "previous_sibling": "node_6_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "fin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Parfait ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1617698285470",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "@option_alim:(non)",
+      "dialog_node": "node_7_1617698903643",
+      "previous_sibling": "node_33_1617659535569",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "rendezvous",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entendu. Je réserve pour vous le $date à $time.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "@optioncoach:(Prendre rendez-vous)",
+      "dialog_node": "node_8_1617644765777",
+      "previous_sibling": "node_7_1617650241037"
+    },
+    {
+      "type": "standard",
+      "title": "salut",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment puis-je vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_8_1617655197668",
+      "previous_sibling": "node_9_1617643893340"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169321117_728833854470863_1439839494994156394_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_4_1617653935880",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1617700758867"
+      },
+      "conditions": "@option_focus:(equilibré)",
+      "dialog_node": "node_8_1617655427705",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une corpulence normale. Continuez comme ça, je vous donnerai quelques exercices de renforcement."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$imc >=18.5 && $imc < 25",
+      "dialog_node": "node_8_1617697690767",
+      "previous_sibling": "node_7_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "equipement",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nos programmes n'ont pas besoins d'équipements ! Cependant si vous en voulez vous pouvez consulter le site de décathlon https://www.decathlon.fr/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenue"
+      },
+      "conditions": "#Conseils_equipement",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1617643893340",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok vous voulez donc augmenter votre force ! Vous voulez un programme :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "equilibré",
+                "value": {
+                  "input": {
+                    "text": "equilibré"
+                  }
+                }
+              },
+              {
+                "label": "focus_jambes",
+                "value": {
+                  "input": {
+                    "text": "jambes"
+                  }
+                }
+              },
+              {
+                "label": "focus_haut",
+                "value": {
+                  "input": {
+                    "text": "haut"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1617653055424",
+      "conditions": "@option_cardio_force:(force)",
+      "dialog_node": "node_9_1617654680310",
+      "previous_sibling": "node_4_1617653935880",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "byebye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ravi de vous avoir aidé, bon courage !"
+              },
+              {
+                "text": "Toujours là pour vous, Bon courage !"
+              },
+              {
+                "text": "Très bien, maintenant va t'entrainer ! :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1617654762142",
+      "previous_sibling": "node_10_1617654856664"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok j'ai le programme qu'il vous faut !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://raw.githubusercontent.com/YanisAhdjoudj/Oumarbot/master/programmes/169313223_482980192747359_4460918329728587467_n.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_32_1617656058237",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617698285470"
+      },
+      "conditions": "@option_focus:(equilibré)",
+      "dialog_node": "node_9_1617657616172",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "imc_category_6",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selon les critères de l'OMS vous avez une insuffisance pondérale  ou maigreur. Un programme de nutrition équilibré et riche en calories, accompagné d'un bon programme de sport vous suffira prendre du poids et vous mucler."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617697690767",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1617700229179"
+      },
+      "conditions": "$imc < 18.5",
+      "dialog_node": "node_9_1617697690767",
+      "previous_sibling": "node_8_1617697690767"
+    },
+    {
+      "type": "standard",
+      "title": "choix programme alimentaire",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Désirez vous un programme alimentaire adapté à ce programme ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Oui",
+                "value": {
+                  "input": {
+                    "text": "oui"
+                  }
+                }
+              },
+              {
+                "label": "Non",
+                "value": {
+                  "input": {
+                    "text": "non"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_20_1617656058237",
+      "dialog_node": "node_9_1617698285470",
+      "previous_sibling": "node_27_1617656058237",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1617650841586",
+      "variable": "$date",
+      "dialog_node": "slot_2_1617650841590"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1617650841586",
+      "variable": "$time",
+      "dialog_node": "slot_5_1617650841590",
+      "previous_sibling": "slot_2_1617650841590"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1617644765777",
+      "variable": "$time",
+      "dialog_node": "slot_7_1617644845026",
+      "previous_sibling": "slot_8_1617644813521"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1617644765777",
+      "variable": "$date",
+      "dialog_node": "slot_8_1617644813521"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_4_1617617374835",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Vouliez-vous dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Aucune de précédent"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Coaching",
+  "language": "fr",
+  "description": ""
+}
